@@ -1,7 +1,7 @@
 {
   "name": "playbook-skills",
   "version": "0.1.2",
-  "description": "Four on-demand workflow skills (plan, debug, tdd, review) that replace Superpowers' session-start load. Only short skill descriptions (about 145 tokens) load each session; a skill's full text loads only when used.",
+  "description": "Four on-demand workflow skills (plan, debug, tdd, review) that replace Superpowers' session-start load. Only short skill descriptions (about 160 tokens) load each session; a skill's full text loads only when used.",
   "author": {
     "name": "Noah Hendy"
   }
