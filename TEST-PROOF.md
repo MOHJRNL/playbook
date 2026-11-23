@@ -1,6 +1,6 @@
 # Test proof
 
-A fresh clone of `MOHJRNL/playbook` at commit `028913d`, run on 2026-11-23 with Claude Code. The test run below is the proof.
+A fresh clone of `MOHJRNL/playbook` at commit `482b5aa`, run on 2026-11-23 with Claude Code. The test run below is the proof.
 
 ```
 $ ./scripts/check-skills.sh
