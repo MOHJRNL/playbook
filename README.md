@@ -74,6 +74,7 @@ The skill files are plain Markdown. Any agent or chat tool that accepts instruct
 
 ```bash
 claude plugin validate ./
+./scripts/check-skills.sh   # front matter, folder names and length of each skill
 ```
 
 ## License and commercial use
