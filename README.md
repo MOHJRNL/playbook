@@ -22,7 +22,7 @@
 
 ## Why it's light
 
-- **No hooks.** Nothing is injected at session start.
+- **No hooks.** At session start only the four short skill descriptions load (about 145 tokens in total). Each skill's full text loads only when you use it.
 - **Loaded on use.** A skill's text enters the context only when the skill is used.
 - **Under 20 lines each.**
 
@@ -68,7 +68,7 @@ The skill files are plain Markdown. Any agent or chat tool that accepts instruct
 
 **Do these replace Superpowers?** They cover the four workflows most people use from it: planning, debugging, test-first work and review. They don't reproduce its full library or its automatic triggering.
 
-**Why no hooks?** Hooks add text to every session and cost tokens even when unused. Skills cost nothing until used.
+**Why no hooks?** Hooks add text to every tool call. Skills keep the per-session cost to the descriptions alone: about 145 tokens for all four. The full text of a skill loads only when you use it.
 
 ## Development
 
