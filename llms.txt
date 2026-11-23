@@ -1,0 +1,10 @@
+# Playbook
+
+> Four workflow skills for AI coding agents, as plain Markdown SKILL.md files: plan, debug, tdd (test-first), review. Under 20 lines each. No hooks, so nothing is added to a session until a skill is used.
+
+Install (Claude Code): /plugin install playbook --marketplace MOHJRNL/playbook
+Other agents: copy the skill bodies into AGENTS.md (Codex, OpenCode) or GEMINI.md (Gemini CLI).
+
+## Docs
+- [README](README.md): skills, per-tool install, FAQ
+- [plan](skills/plan/SKILL.md), [debug](skills/debug/SKILL.md), [tdd](skills/tdd/SKILL.md), [review](skills/review/SKILL.md)

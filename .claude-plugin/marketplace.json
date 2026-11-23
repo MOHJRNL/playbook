@@ -1,0 +1,5 @@
+{
+  "name": "playbook",
+  "owner": { "name": "MOHJRNL" },
+  "plugins": [{ "name": "playbook", "source": "./" }]
+}
