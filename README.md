@@ -77,6 +77,10 @@ claude plugin validate ./
 ./scripts/check-skills.sh   # front matter, folder names and length of each skill
 ```
 
+## Test proof
+
+A recorded test run on a fresh clone: see [TEST-PROOF.md](TEST-PROOF.md).
+
 ## License and commercial use
 
 Free to use, copy and modify for non-commercial purposes, under the PolyForm Noncommercial License 1.0.0 (see `LICENSE`). For commercial use, contact the author for a separate license.
