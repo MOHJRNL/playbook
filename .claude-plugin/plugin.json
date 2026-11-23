@@ -1,6 +1,6 @@
 {
   "name": "playbook",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Four on-demand workflow skills (plan, debug, tdd, review) that replace Superpowers' session-start load. Nothing is injected until a skill is used.",
   "author": {
     "name": "Noah Hendy"
