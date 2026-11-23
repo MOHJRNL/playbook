@@ -31,13 +31,13 @@
 ### Claude Code (recommended)
 
 ```text
-/plugin install playbook --marketplace MOHJRNL/playbook
+/plugin install playbook-skills --marketplace MOHJRNL/playbook
 ```
 
 Or from a shell:
 
 ```bash
-claude plugin install playbook --marketplace MOHJRNL/playbook
+claude plugin install playbook-skills --marketplace MOHJRNL/playbook
 ```
 
 Desktop app: **+** next to the prompt box, then **Plugins**, **Add marketplace** with `MOHJRNL/playbook`, then **Add plugin**.
@@ -80,6 +80,11 @@ claude plugin validate ./
 ## Test proof
 
 A recorded test run on a fresh clone: see [TEST-PROOF.md](TEST-PROOF.md).
+
+## What it sends and writes
+
+- **Reads and writes:** nothing. The plugin is four Markdown skill files, which Claude Code loads when you use them.
+- **Network and models:** none.
 
 ## License and commercial use
 
